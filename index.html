@@ -89,11 +89,7 @@
     </div>
 </div>
 
-
-
-
-
-
+<hr>
 
     <p><em>Day 1/154 완료 예정 💪</em></p>
 
@@ -101,7 +97,31 @@
 
 
     <script src="script.js"></script>
+<hr>
 
+<h2>나의 학습 목표</h2>
+<div class="goal-section">
+    <div class="goal-input-container">
+        <input 
+            type="text" 
+            id="goalInput" 
+            placeholder="새로운 학습 목표를 입력하세요..."
+            maxlength="50"
+        >
+        <button id="addGoalBtn">목표 추가 ➕</button>
+    </div>
+    
+    <div class="goal-stats">
+        <span>총 목표: <strong id="totalGoals">0</strong>개</span>
+        <span>완료: <strong id="completedGoals">0</strong>개</span>
+    </div>
+    
+    <ul id="goalList" class="goal-list">
+        <!-- JavaScript로 동적 생성됨 -->
+    </ul>
+    
+    <button id="clearAllBtn" class="clear-btn">모두 삭제 🗑️</button>
+</div>
 
 </body>
 </html>
